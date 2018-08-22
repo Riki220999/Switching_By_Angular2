@@ -1,0 +1,7 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var math_1 = require("./math");
+console.log(math_1.square(2));
+console.log(math_1.log10(10));
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNoMy9tb2R1bGVzL2FwcC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUNBLCtCQUFxQztBQUNyQyxPQUFPLENBQUMsR0FBRyxDQUFDLGFBQU0sQ0FBQyxDQUFDLENBQUMsQ0FBQyxDQUFDO0FBQ3ZCLE9BQU8sQ0FBQyxHQUFHLENBQUMsWUFBSyxDQUFDLEVBQUUsQ0FBQyxDQUFDLENBQUMiLCJmaWxlIjoiY2gzL21vZHVsZXMvYXBwLmpzIiwic291cmNlc0NvbnRlbnQiOlsiLy8gYXBwLnRzXHJcbmltcG9ydCB7c3F1YXJlLCBsb2cxMH0gZnJvbSAnLi9tYXRoJztcclxuY29uc29sZS5sb2coc3F1YXJlKDIpKTsgLy8gNFxyXG5jb25zb2xlLmxvZyhsb2cxMCgxMCkpOyAvLyAxXHJcbiJdLCJzb3VyY2VSb290IjoiL3NvdXJjZS8ifQ==

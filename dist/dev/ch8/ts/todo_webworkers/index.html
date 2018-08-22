@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Switching to Angular 2</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- inject:css -->
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <!-- endinject -->
+</head>
+<body>
+
+  <todo-app>Loading...</todo-app>
+
+  <script src="/node_modules/systemjs/dist/system.src.js"></script>
+  <script src="/node_modules/reflect-metadata/Reflect.js"></script>
+  <script src="/node_modules/zone.js/dist/zone.js"></script>
+  <script src="./config.js"></script>
+  <script>
+  System.import("./bootstrap.js")
+    .catch(function () {
+      console.log("Report this error to https://github.com/mgechev/switching-to-angular2/issues", e);
+    });
+  </script>
+</body>
+</html>
